@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenpactFramework", "GenpactFramework\GenpactFramework.csproj", "{DE9B8D60-8656-4A46-887C-52CDFEF64564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.runsettings = .runsettings
+		allureConfig.json = allureConfig.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{51BF5E14-0FF8-49C8-A76B-9EEF4BA96333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE9B8D60-8656-4A46-887C-52CDFEF64564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9B8D60-8656-4A46-887C-52CDFEF64564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9B8D60-8656-4A46-887C-52CDFEF64564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9B8D60-8656-4A46-887C-52CDFEF64564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BF5E14-0FF8-49C8-A76B-9EEF4BA96333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BF5E14-0FF8-49C8-A76B-9EEF4BA96333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BF5E14-0FF8-49C8-A76B-9EEF4BA96333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BF5E14-0FF8-49C8-A76B-9EEF4BA96333}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6259B2BD-95E0-40A2-811C-B729A03B2866}
+	EndGlobalSection
+EndGlobal

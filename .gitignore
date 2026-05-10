@@ -1,0 +1,30 @@
+## --- Build Artifacts ---
+# These are generated when you compile and should never be in Git
+[Bb]in/
+[Oo]bj/
+Generated\ Files/
+
+## --- Visual Studio Specific ---
+# User settings, caches, and hidden metadata
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.vstoken
+
+## --- NuGet Packages ---
+# Don't commit libraries; Git should restore them from the .csproj
+packages/
+*.nupkg
+
+## --- OS/Environment ---
+# Local secrets and system files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+## --- Test Results ---
+TestResults/
+*.trx
